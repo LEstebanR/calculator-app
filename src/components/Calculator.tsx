@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Header from "./Header";
-import Keys from "./keys";
+import Keys from "./Keys";
 import Screen from "./Screen";
 
 const Calculator: FC = () => {
