@@ -5,7 +5,7 @@ interface ContainerProps {
 }
 
 const Container: React.FC<ContainerProps> = ({ children }) => {
-  return <div className="h-screen flex justify-center items-center bg-background-main font-sans">{children}</div>;
+  return <div className="h-screen flex justify-center items-center bg-background-main font-sans text-white">{children}</div>;
 };
 
 export default Container;
